@@ -85,8 +85,9 @@ for i in list1:
 # what we have now should be a string right?
 # let's check it up
 str2 = ' '.join(list2)
+print(str2)
 # print(str2) showed it worked now.
-
+'''
 # now swapcase
 text2 = str2.swapcase()
 # by checking up :print(text2)-- ok worked
@@ -106,5 +107,5 @@ for i in range(0, len(list3)):
 list4 = sorted(list3)
 
 print(' '.join(list4))
-
+'''
 # I knew I could make it!!! Ok still some other puzzles need to go explore deeper!

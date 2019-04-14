@@ -1,3 +1,4 @@
+
 from mymodule import stats_word as sw
 import requests
 from pyquery import PyQuery
@@ -5,6 +6,7 @@ from wxpy import *
 
 # 扫描二维码登陆微信 #issue1195 avoiding scanning again shortly
 bot = Bot(cache_path=True)
+myfriend = bot.friends().search('大头')[0]
 
 @bot.register()
 def auto_reply(msg):

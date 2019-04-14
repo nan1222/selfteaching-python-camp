@@ -2,7 +2,7 @@
 
 
 
-import stats_word
+from mymodule import stats_word
 import json
 from os import path
 import re
@@ -19,4 +19,4 @@ def load_file():
     
         return text.read()
 text = load_file()
-print(stats_word.stats_text_cn(text,20))
+print(stats_word.stats_text_cn(text))

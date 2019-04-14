@@ -1,4 +1,4 @@
-import stats_word
+from mymodule import stats_word
 import re
 import jieba
 
@@ -36,9 +36,9 @@ When the guardian gods of the mountains saw how determined Yugong and his crew w
 Filled with admiration for Yugong, the Emperor of Heavens ordered two mighty gods to carry the mountains away.
 '''
 
-with open('C:\\Users\\flami\\Documents\\GitHub\\selfteaching-python-camp\\19100303\\lunbixiaozi\\mymodule\\tang300.json', encoding='UTF-8', newline='') as f:
-    read_data = f.read()
-    f.closed
+with open('D:\我的文档\GitHub\selfteaching-python-camp\19100303\lunbixiaozi\mymoduletang300.json', encoding='UTF-8', newline='') as a:
+    read_data = a.read()
+    # a.closed
 
 
 # print(type(read_data))

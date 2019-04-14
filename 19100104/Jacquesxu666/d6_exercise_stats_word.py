@@ -1,6 +1,17 @@
 def stats_text_en() ：
     """Count the english words in the text"""  #使用文档字符串说明
     import d5_exercise_stats_text  #封装day5任务2的代码
+    text = text.replace(',', ' ').replace('.', ' ').replace( '--', ' ').replace('!', ' ').replace('*', ' ')#去除特殊字符
+    text = text.lower()
+    text = text.split()
+
+    a={}
+
+    for i in text:
+        quantity=text.count(i)
+        b={i:quantity}
+        a.update(b)
+    print(a)  #统计各个单词出现的次数
 
 
 

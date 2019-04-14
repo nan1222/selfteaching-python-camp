@@ -9,7 +9,7 @@ import numpy as np
 plt.rcdefaults()
 fig,ax = plt.subplots()
 # 设置中文字体  # issue#1692 provided another solution on font setting problems pyplotz: pip install
-cnfont = fm.FontProperties(fname='/System/Library/Fonts/PingFang.ttc')
+cnfont = fm.FontProperties(fname='E:\网页下载\锐字真言体.ttf')
 
 # 定义绘制图标函数并保存为图片
 def chartImg(data={}) :
